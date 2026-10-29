@@ -1,0 +1,156 @@
+{
+  "id": "case-studies",
+  "title": "Real-world case studies",
+  "screens": [
+    {
+      "id": "why-study",
+      "heading": "Why study real attacks",
+      "teacher": {
+        "mood": "explaining",
+        "say": "These are real, well-documented cases. Notice how ordinary each trick looks."
+      },
+      "illustration": null,
+      "body": [
+        "Real cases show that phishing is not a problem of careless people. Skilled staff at large, security-aware organisations have been caught, and the same few techniques appear each time.",
+        "In this module you will walk through three cases step by step. Tap each step to see how the attack unfolded."
+      ],
+      "key_takeaway": "Studying real attacks shows which simple checks would have stopped them."
+    },
+    {
+      "id": "fake-invoices",
+      "heading": "Case 1: Fake supplier invoices (2013 to 2015)",
+      "teacher": {
+        "mood": "worried",
+        "say": "Two huge technology companies paid these invoices. Tap each step to see how."
+      },
+      "illustration": "case-timeline",
+      "body": [
+        "Google and Facebook were both reported to have paid fake invoices. The attacker did not break into any system. He simply asked for money in a believable way."
+      ],
+      "points": [
+        {
+          "label": "1. Research",
+          "text": "The fraudster identified a hardware manufacturer that the two companies genuinely bought equipment from."
+        },
+        {
+          "label": "2. Bait",
+          "text": "He set up a company with the same name as that supplier and sent convincing invoices, contracts and letters."
+        },
+        {
+          "label": "3. Action",
+          "text": "Finance teams paid the invoices into bank accounts he controlled."
+        },
+        {
+          "label": "4. Payoff",
+          "text": "Reports put the total above 100 million dollars. Most of it was later recovered."
+        }
+      ],
+      "example": {
+        "title": "What would have stopped it",
+        "text": "Confirming new bank details and unusual payments with the real supplier by phone, using a number already on file."
+      },
+      "key_takeaway": "Verify payment requests and changes of bank details through a separate channel you already know."
+    },
+    {
+      "id": "security-alert",
+      "heading": "Case 2: The fake security alert (2016)",
+      "teacher": {
+        "mood": "thinking",
+        "say": "A single email, made to look like a routine warning, exposed thousands of messages."
+      },
+      "illustration": "case-timeline",
+      "body": [
+        "In 2016 the chairman of a US presidential campaign received an email that looked like a security alert from his email provider, urging him to change his password."
+      ],
+      "points": [
+        {
+          "label": "1. Research",
+          "text": "The attacker targeted people close to a high-profile campaign."
+        },
+        {
+          "label": "2. Bait",
+          "text": "The email looked like a genuine security alert with a button to change the password. The link was shortened to hide where it led."
+        },
+        {
+          "label": "3. Action",
+          "text": "The link led to a fake sign-in page that captured the password."
+        },
+        {
+          "label": "4. Payoff",
+          "text": "The attacker read the mailbox, and thousands of emails were later published."
+        }
+      ],
+      "example": {
+        "title": "What would have stopped it",
+        "text": "Going to the email provider's website directly instead of using the button, and protecting the account with a security key."
+      },
+      "key_takeaway": "Never sign in through a link in an alert. Go to the service yourself."
+    },
+    {
+      "id": "help-desk-call",
+      "heading": "Case 3: The phone call to IT (2020)",
+      "teacher": {
+        "mood": "worried",
+        "say": "This one began with a phone call, not an email. Phishing is not only email."
+      },
+      "illustration": "case-timeline",
+      "body": [
+        "In July 2020, attackers phoned employees of a major social media company while many were working from home. The callers claimed to be from the internal IT help desk."
+      ],
+      "points": [
+        {
+          "label": "1. Research",
+          "text": "The attackers learned who worked there and how remote staff reached internal systems."
+        },
+        {
+          "label": "2. Bait",
+          "text": "They phoned employees posing as IT support and sent them to a fake page built to look like the company's internal sign-in."
+        },
+        {
+          "label": "3. Action",
+          "text": "Employees entered their credentials on the fake page."
+        },
+        {
+          "label": "4. Payoff",
+          "text": "The attackers used internal tools to take over high-profile accounts and post a cryptocurrency scam."
+        }
+      ],
+      "example": {
+        "title": "What would have stopped it",
+        "text": "Ending the call and phoning IT back on a number from the internal directory, plus sign-in methods that only work on the real website."
+      },
+      "key_takeaway": "Never trust a caller who contacted you. Hang up and call back on a number you already know."
+    },
+    {
+      "id": "common-thread",
+      "heading": "What the cases have in common",
+      "teacher": {
+        "mood": "happy",
+        "say": "Three very different attacks, one pattern. Once you see it, you cannot unsee it."
+      },
+      "illustration": null,
+      "body": [
+        "Different channels, different targets, the same underlying method."
+      ],
+      "points": [
+        {
+          "label": "Borrowed trust",
+          "text": "Every attack impersonated someone familiar: a supplier, a security team or the IT help desk."
+        },
+        {
+          "label": "A rushed human decision",
+          "text": "Each one depended on a single person acting before checking."
+        },
+        {
+          "label": "Simple defences",
+          "text": "Calling back on a known number, going to the site yourself, and using security keys or passkeys would each have broken the chain. Those sign-in methods only work on the real website, so they resist phishing even when a person is fooled."
+        },
+        {
+          "label": "Fast reporting",
+          "text": "Quick reporting limits damage, because attackers often reuse the same trick on colleagues."
+        }
+      ],
+      "key_takeaway": "Attackers borrow trust. You win by verifying through a channel they do not control."
+    }
+  ]
+}

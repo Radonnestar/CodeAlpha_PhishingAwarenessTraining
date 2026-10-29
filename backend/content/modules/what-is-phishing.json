@@ -1,0 +1,110 @@
+{
+  "id": "what-is-phishing",
+  "title": "What phishing is",
+  "screens": [
+    {
+      "id": "definition",
+      "heading": "The oldest trick in a new disguise",
+      "teacher": {
+        "mood": "explaining",
+        "say": "Welcome! Let's start with the one idea that everything else builds on."
+      },
+      "illustration": "fishing-hook",
+      "body": [
+        "Phishing is a type of fraud in which an attacker pretends to be someone you trust, in order to make you hand over information, money or access.",
+        "The name echoes fishing. The attacker casts a believable bait, such as a delivery notice, a bank alert or a message from your manager, and waits for someone to bite.",
+        "Phishing is not a software flaw. It is a conversation, and the target is a person."
+      ],
+      "key_takeaway": "Phishing attacks people, not computers. The weak point is trust."
+    },
+    {
+      "id": "types",
+      "heading": "Same goal, different channels",
+      "teacher": {
+        "mood": "thinking",
+        "say": "Tap each channel on the diagram. The names matter, because they tell you what to expect."
+      },
+      "illustration": "phishing-channels",
+      "body": [
+        "The goal is always the same, but the channel and the amount of effort change."
+      ],
+      "points": [
+        {
+          "label": "Email phishing",
+          "text": "Mass messages posing as banks, couriers or popular services. Cheap to send and aimed at everyone."
+        },
+        {
+          "label": "Spear phishing",
+          "text": "A message written for one person, using real details such as your name, role or a project you work on."
+        },
+        {
+          "label": "Whaling",
+          "text": "Spear phishing aimed at senior leaders, or at the people who can move money for them."
+        },
+        {
+          "label": "Smishing",
+          "text": "Phishing by SMS or chat app, usually a parcel problem, an unpaid fee or a security alert."
+        },
+        {
+          "label": "Vishing",
+          "text": "Phishing by phone call, often a caller claiming to be from your bank, IT support or a government office."
+        },
+        {
+          "label": "Quishing",
+          "text": "Phishing through QR codes on posters, emails or parking meters. The code hides the address it leads to."
+        }
+      ],
+      "key_takeaway": "Phishing is not only email. Any channel that reaches you can carry it."
+    },
+    {
+      "id": "anatomy",
+      "heading": "Anatomy of an attack",
+      "teacher": {
+        "mood": "worried",
+        "say": "Attacks are rarely random. Watch how much happens before you ever see the message."
+      },
+      "illustration": "attack-chain",
+      "body": [
+        "Most successful attacks follow four steps. Knowing them helps you spot where you can break the chain."
+      ],
+      "points": [
+        {
+          "label": "1. Research",
+          "text": "The attacker collects names, roles, suppliers and brands from company websites and social media."
+        },
+        {
+          "label": "2. Bait",
+          "text": "A message is built to look routine and to trigger an emotion such as worry, curiosity or a wish to help."
+        },
+        {
+          "label": "3. Action",
+          "text": "The victim clicks, opens a file, signs in, pays or replies. This is the only step the attacker cannot do alone."
+        },
+        {
+          "label": "4. Payoff",
+          "text": "Stolen credentials are used or sold, malware is installed, or money moves to the attacker."
+        }
+      ],
+      "example": {
+        "title": "A realistic example",
+        "text": "A finance employee is found on a professional networking site. The attacker learns the name of a regular supplier and sends an email about a changed bank account. One reply later, a genuine payment goes to the attacker."
+      },
+      "key_takeaway": "The victim's action is step three. That is where you can stop the attack."
+    },
+    {
+      "id": "why-it-works",
+      "heading": "Why attackers keep choosing it",
+      "teacher": {
+        "mood": "thinking",
+        "say": "Understanding the attacker's motivation makes you much harder to fool."
+      },
+      "illustration": null,
+      "body": [
+        "Phishing is cheap, and one message can reach thousands of people. Even a tiny success rate pays for itself.",
+        "It also walks around technical defences. A firewall cannot block a person who chooses to type a password into a fake page.",
+        "One stolen password can be enough. Your email account can reset the passwords of almost every other account you own, so an attacker who controls it controls much more."
+      ],
+      "key_takeaway": "A single stolen password can unlock your email, and your email can reset almost everything else."
+    }
+  ]
+}

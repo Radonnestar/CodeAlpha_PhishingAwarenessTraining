@@ -1,0 +1,106 @@
+[
+  {
+    "id": "soc-01",
+    "kind": "concept",
+    "prompt": "Why do attackers add a tight deadline to a message?",
+    "options": [
+      "It stops you from taking time to think and check",
+      "It makes the message look longer",
+      "It helps email filters deliver the message",
+      "Email providers require a deadline"
+    ],
+    "answer": 0,
+    "explanation": "Urgency removes the time you would use to verify a request. Pressure is the point, not the deadline itself."
+  },
+  {
+    "id": "soc-02",
+    "kind": "scenario",
+    "prompt": "An email appears to come from your CEO. It asks you to buy gift cards today and keep it confidential. Which pressure levers are being used?",
+    "options": [
+      "Authority, urgency and secrecy",
+      "Reward and curiosity",
+      "Familiarity only",
+      "None, it is a normal request"
+    ],
+    "answer": 0,
+    "explanation": "The CEO's name is authority, today is urgency, and confidential is secrecy. Secrecy also stops colleagues from warning you."
+  },
+  {
+    "id": "soc-03",
+    "kind": "scenario",
+    "prompt": "A message says you won a prize, but you must claim it within 10 minutes. What should you do?",
+    "options": [
+      "Claim it quickly before it expires",
+      "Ignore the countdown, do not click, and check through the official website whether the contest exists",
+      "Forward it to friends so they can win too",
+      "Reply and ask for a longer deadline"
+    ],
+    "answer": 1,
+    "explanation": "A countdown combines reward and urgency. Check independently through a source you trust, and do not spread the message."
+  },
+  {
+    "id": "soc-04",
+    "kind": "concept",
+    "prompt": "Which situation is the best signal to stop and verify a message?",
+    "options": [
+      "Being pushed to act immediately",
+      "Receiving any message at all",
+      "Seeing a company logo",
+      "Reading a long email"
+    ],
+    "answer": 0,
+    "explanation": "Pressure to act immediately is the clearest sign of manipulation. The stronger the pressure, the stronger the reason to verify."
+  },
+  {
+    "id": "soc-05",
+    "kind": "scenario",
+    "prompt": "You are new at work. A chat message from your 'manager' says, 'Are you free for a quick favour?' It comes from an account you have never seen before. What is the best first step?",
+    "options": [
+      "Say yes, to avoid looking unhelpful",
+      "Confirm with your manager through a contact method you already know",
+      "Ask the sender for more details in the same chat",
+      "Wait a few hours and then agree"
+    ],
+    "answer": 1,
+    "explanation": "Asking in the same chat reaches the attacker. Always verify through a channel you already trust, such as the company directory or in person."
+  },
+  {
+    "id": "soc-06",
+    "kind": "concept",
+    "prompt": "Why are new employees popular targets for social engineering?",
+    "options": [
+      "They do not yet know who normally asks for what, and they want to be helpful",
+      "They have the highest salaries",
+      "They use the oldest computers",
+      "They never receive any training"
+    ],
+    "answer": 0,
+    "explanation": "New staff are eager to help and have no sense of what is normal yet. That combination is what attackers look for."
+  },
+  {
+    "id": "soc-07",
+    "kind": "scenario",
+    "prompt": "A friend's social media account messages you: 'Quick, I'm locked out. Can you send me the 6-digit code you are about to get?' What should you do?",
+    "options": [
+      "Send the code to help your friend",
+      "Do not send it, and contact your friend through another channel",
+      "Send only half of the code",
+      "Reply and ask why they need it"
+    ],
+    "answer": 1,
+    "explanation": "The account was probably taken over, and the code would let the attacker into your account too. Never share codes, and check with your friend another way."
+  },
+  {
+    "id": "soc-08",
+    "kind": "concept",
+    "prompt": "What is the most reliable way to check an urgent request?",
+    "options": [
+      "Reply to the message and ask if it is real",
+      "Use a different, trusted channel that you already know",
+      "Check whether the message has a logo",
+      "Check whether the sender knows your name"
+    ],
+    "answer": 1,
+    "explanation": "Replying reaches the attacker, and logos and names are easy to copy. An independent channel is the only check the attacker does not control."
+  }
+]

@@ -1,0 +1,160 @@
+{
+  "id": "fake-websites",
+  "title": "Fake websites and malicious links",
+  "screens": [
+    {
+      "id": "url-anatomy",
+      "heading": "Who owns this address?",
+      "teacher": {
+        "mood": "thinking",
+        "say": "Tap each part of the address. Only one part tells you who really owns the site."
+      },
+      "illustration": "url-anatomy",
+      "body": [
+        "A web address is built from parts, and attackers rely on you reading it too quickly. Tap each part of this fake address to see what it means."
+      ],
+      "url": {
+        "parts": [
+          {
+            "text": "https://",
+            "label": "Protocol",
+            "note": "This says the connection is encrypted. It says nothing about who runs the site."
+          },
+          {
+            "text": "login.examplebank.com.",
+            "label": "Subdomain labels",
+            "note": "Everything in front of the main domain is chosen freely by whoever owns that domain. Here the attacker has placed a trusted-looking name in front. It is decoration."
+          },
+          {
+            "text": "account-check.net",
+            "label": "Domain",
+            "owner": true,
+            "note": "Read from the right and stop at the first single slash. The last name there is the owner. This site belongs to account-check.net, not to examplebank.com. For endings like .co.uk, the owner is the name just before that ending."
+          },
+          {
+            "text": "/sign-in",
+            "label": "Path",
+            "note": "Anything after the first single slash is just a page on that site. The owner can name it anything, including a bank's name."
+          }
+        ]
+      },
+      "key_takeaway": "Read the address from the right, up to the first single slash. That last name tells you who owns the site."
+    },
+    {
+      "id": "address-tricks",
+      "heading": "Tricks in the address",
+      "teacher": {
+        "mood": "worried",
+        "say": "Fake addresses work because they look right at a glance. Read them slowly."
+      },
+      "illustration": null,
+      "body": [
+        "Attackers register thousands of addresses that resemble well-known ones. These are the most common tricks."
+      ],
+      "points": [
+        {
+          "label": "Lookalike characters",
+          "text": "examp1ebank.com uses the number 1 in place of the letter l, and the letters rn can pass for an m. Read letter by letter."
+        },
+        {
+          "label": "Extra words",
+          "text": "Names like examplebank-secure.com or examplebank-login.net are not the bank. Real companies rarely add words such as secure or verify to their main domain."
+        },
+        {
+          "label": "A different ending",
+          "text": "examplebank.co and examplebank.help are different sites from examplebank.com."
+        },
+        {
+          "label": "Lookalike alphabets",
+          "text": "Some addresses use letters from other alphabets that look identical to ours. Typing the address yourself avoids the risk."
+        },
+        {
+          "label": "Hidden destinations",
+          "text": "Shortened links and QR codes hide the address. Preview it before you open it, or skip it."
+        }
+      ],
+      "key_takeaway": "Fake addresses win by looking right at a glance. Slow down and read every character."
+    },
+    {
+      "id": "login-compare",
+      "heading": "Real or fake?",
+      "teacher": {
+        "mood": "explaining",
+        "say": "Both pages below show a padlock. Press the button to see what really gives the fake away."
+      },
+      "illustration": "login-compare",
+      "body": [
+        "A convincing fake can be built in minutes. Compare a real sign-in page with a fake one, then reveal the differences."
+      ],
+      "compare": {
+        "real": {
+          "address": "examplebank.com/login",
+          "fields": ["Username", "Password"]
+        },
+        "fake": {
+          "address": "examplebank-login.com/secure",
+          "banner": "Session expired. Sign in again within 5 minutes.",
+          "fields": ["Username", "Password", "Card PIN"]
+        },
+        "differences": [
+          {
+            "label": "The address",
+            "text": "examplebank-login.com is not examplebank.com. A different domain means a different owner."
+          },
+          {
+            "label": "The pressure",
+            "text": "A banner says the session expired and demands an immediate sign-in. Real banks do not rush you through a link."
+          },
+          {
+            "label": "The extra request",
+            "text": "The fake page also asks for the card PIN. A genuine sign-in page never needs it."
+          },
+          {
+            "label": "The padlock",
+            "text": "Both pages have one. It only means the connection is encrypted."
+          },
+          {
+            "label": "How you got there",
+            "text": "You reached the fake page through a message. You should reach the real one yourself."
+          }
+        ]
+      },
+      "key_takeaway": "The padlock does not prove a site is real. The address and the context do."
+    },
+    {
+      "id": "safe-habits",
+      "heading": "Safe habits for websites",
+      "teacher": {
+        "mood": "happy",
+        "say": "A few small habits make fake sites almost useless against you."
+      },
+      "illustration": null,
+      "body": [
+        "You do not need to inspect every address under a microscope. A few habits remove most of the risk."
+      ],
+      "points": [
+        {
+          "label": "Bookmark or type",
+          "text": "Reach banks, email and work systems through a bookmark or by typing the address, not through links in messages."
+        },
+        {
+          "label": "Let your password manager decide",
+          "text": "A password manager fills a login only on the exact address it saved. If it stays silent on a page that looks right, treat that as a warning."
+        },
+        {
+          "label": "Respect browser warnings",
+          "text": "A full-page warning about a deceptive site is serious. Close the page instead of clicking through."
+        },
+        {
+          "label": "Be wary of expired sessions",
+          "text": "A message saying you were logged out and must sign in again is a common trap. Open the site yourself."
+        },
+        {
+          "label": "Check before paying",
+          "text": "Before entering card details, confirm that you reached the site yourself and that the address is exactly the one you expect."
+        }
+      ],
+      "key_takeaway": "Reach important sites yourself, and let your tools warn you."
+    }
+  ]
+}

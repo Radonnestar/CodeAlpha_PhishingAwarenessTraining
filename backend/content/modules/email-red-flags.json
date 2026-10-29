@@ -1,0 +1,210 @@
+{
+  "id": "email-red-flags",
+  "title": "Red flags in emails",
+  "screens": [
+    {
+      "id": "investigator",
+      "heading": "Read it like an investigator",
+      "teacher": {
+        "mood": "thinking",
+        "say": "Hover over or tap each part of this fake email. Every part is a clue."
+      },
+      "illustration": "email-anatomy",
+      "body": [
+        "Treat a suspicious email as evidence. Instead of asking whether it feels right, check its parts one by one. Hover over or tap each part below to see what an investigator would look at."
+      ],
+      "anatomy": {
+        "parts": [
+          {
+            "id": "sender",
+            "region": "header",
+            "label": "From",
+            "text": "Examplebank Support <support@examplebank-secure.co>",
+            "title": "The sender address",
+            "check": "Look at the real address, not the display name. The domain examplebank-secure.co is not the bank's own domain. It only borrows the name."
+          },
+          {
+            "id": "subject",
+            "region": "header",
+            "label": "Subject",
+            "text": "URGENT: Verify your account today",
+            "title": "The subject line",
+            "check": "Capital letters and a deadline are meant to rush you. Real organisations rarely threaten you in a subject line."
+          },
+          {
+            "id": "greeting",
+            "region": "body",
+            "text": "Dear valued customer,",
+            "title": "The greeting",
+            "check": "Your bank knows your name. A vague greeting suggests a template sent to thousands of people."
+          },
+          {
+            "id": "request",
+            "region": "body",
+            "text": "We noticed unusual activity. Confirm your details within 24 hours or your account will be closed.",
+            "title": "The request",
+            "check": "An unexpected threat with a deadline is a pressure lever. A real provider would not close your account over an email you did not expect."
+          },
+          {
+            "id": "link",
+            "region": "action",
+            "text": "Confirm my details",
+            "caption": "Opens: https://examplebank-secure.co/confirm",
+            "title": "The link",
+            "check": "Hover over a link before clicking. The destination is the same lookalike domain and leads to a sign-in page."
+          },
+          {
+            "id": "attachment",
+            "region": "attachment",
+            "text": "Statement_Oct.zip",
+            "caption": "Compressed archive, 2.4 MB",
+            "title": "The attachment",
+            "check": "You did not ask for a statement, and a compressed archive is a common way to carry malware. Do not open it."
+          }
+        ]
+      },
+      "key_takeaway": "Every part of an email is a clue: sender, greeting, request, link and attachment."
+    },
+    {
+      "id": "sender",
+      "heading": "Start with the sender",
+      "teacher": {
+        "mood": "worried",
+        "say": "The sender line is the easiest thing to fake and the easiest thing to check."
+      },
+      "illustration": null,
+      "body": [
+        "The name shown at the top of an email is just text that the sender chose. The address inside the angle brackets is what matters."
+      ],
+      "points": [
+        {
+          "label": "Display name versus address",
+          "text": "Anyone can type any display name. Check the address every time, especially on a phone, where only the name is shown by default."
+        },
+        {
+          "label": "Lookalike domains",
+          "text": "Watch for extra words (examplebank-secure.co), swapped characters (examp1ebank.com, where the number 1 replaces the letter l) and different endings (.co instead of .com)."
+        },
+        {
+          "label": "A different Reply-To",
+          "text": "The From line can look internal while replies are sent to an outside address. If an email asks you to reply, check where the reply would go."
+        },
+        {
+          "label": "Real accounts that were hacked",
+          "text": "Sometimes the sender is a real colleague whose account was taken over. If a message is out of character, confirm it through another channel."
+        }
+      ],
+      "example": {
+        "title": "Spot the trick",
+        "text": "A message appears to come from 'IT Helpdesk' and the From address ends in your company's domain. Look closer: the Reply-To address ends in outlook-mail.co, so any reply, including a password, goes to an outsider."
+      },
+      "key_takeaway": "Judge the real sender address, and check where replies would go."
+    },
+    {
+      "id": "links-attachments",
+      "heading": "Links and attachments",
+      "teacher": {
+        "mood": "thinking",
+        "say": "This is where most attacks actually do their damage, so slow down here."
+      },
+      "illustration": null,
+      "body": [
+        "The sender line gets you to open the message. The link or the file is what gives the attacker access."
+      ],
+      "points": [
+        {
+          "label": "Hover first",
+          "text": "Hovering over a link shows its real destination. On a phone, press and hold. If it does not match who the message claims to be from, do not open it."
+        },
+        {
+          "label": "Shortened links",
+          "text": "Link shorteners hide the destination. Treat an unexpected short link as an unknown address."
+        },
+        {
+          "label": "The padlock myth",
+          "text": "The padlock only means the connection is encrypted. Fake sites use it too, so it says nothing about who runs the page."
+        },
+        {
+          "label": "Risky attachments",
+          "text": "Be careful with unexpected zip archives, HTML files, and Office documents that ask you to enable editing or macros."
+        },
+        {
+          "label": "Go direct",
+          "text": "Instead of using a link, open the website yourself with a bookmark or by typing the address."
+        }
+      ],
+      "key_takeaway": "Do not trust a link or a file you did not expect. Reach the real site yourself."
+    },
+    {
+      "id": "tone-content",
+      "heading": "Tone and content",
+      "teacher": {
+        "mood": "explaining",
+        "say": "Here is a surprise: a perfectly written email can still be a trap."
+      },
+      "illustration": null,
+      "body": [
+        "Beyond technical clues, ask what the message wants from you and how it is trying to make you feel."
+      ],
+      "points": [
+        {
+          "label": "Pressure",
+          "text": "Deadlines, threats and warnings of closure are designed to stop you from thinking."
+        },
+        {
+          "label": "Unusual requests",
+          "text": "Gift cards, changed bank details, passwords, one-time codes and urgent payments are things a legitimate sender rarely asks for by email."
+        },
+        {
+          "label": "Generic greetings",
+          "text": "Phrases like Dear customer are common in mass mailings. A personal name alone does not prove anything, though."
+        },
+        {
+          "label": "Too good or too bad",
+          "text": "Surprise prizes, refunds and sudden legal trouble are classic bait."
+        },
+        {
+          "label": "Perfect polish",
+          "text": "Good spelling and a professional design no longer prove an email is real. Modern tools can produce polished text for any scam."
+        }
+      ],
+      "key_takeaway": "Judge what the message asks you to do, not how professional it looks."
+    },
+    {
+      "id": "thirty-seconds",
+      "heading": "The 30-second check",
+      "teacher": {
+        "mood": "happy",
+        "say": "Pass the quiz after this and Spot the phish unlocks. It is a great way to practise."
+      },
+      "illustration": null,
+      "body": [
+        "Use these questions on every unexpected message. They take about thirty seconds and turn a vague feeling into a decision.",
+        "Pass the quiz at the end of this module to unlock the Spot the phish activity, where you can practise on fake emails."
+      ],
+      "points": [
+        {
+          "label": "1. Who?",
+          "text": "Is the real sender address what I expect?"
+        },
+        {
+          "label": "2. What?",
+          "text": "Is it asking for a password, money, a code or a quick favour?"
+        },
+        {
+          "label": "3. Where?",
+          "text": "Where does the link really go, and could I reach the site myself?"
+        },
+        {
+          "label": "4. When?",
+          "text": "Is there an artificial deadline?"
+        },
+        {
+          "label": "5. Verify",
+          "text": "If I am still unsure, I check through a separate channel I already know, then report it."
+        }
+      ],
+      "key_takeaway": "When in doubt, check separately, then report."
+    }
+  ]
+}

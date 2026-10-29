@@ -1,0 +1,106 @@
+[
+  {
+    "id": "def-01",
+    "kind": "scenario",
+    "prompt": "You typed your password into a page you now suspect was fake. What is the first thing to do?",
+    "options": [
+      "Change the password on the real site from a trusted device, then report it",
+      "Wait to see whether anything happens",
+      "Clear your browser history",
+      "Restart your computer and carry on"
+    ],
+    "answer": 0,
+    "explanation": "Speed matters. Changing the password takes the stolen one out of play, and reporting lets others be protected."
+  },
+  {
+    "id": "def-02",
+    "kind": "scenario",
+    "prompt": "The password you typed is also used for your email and your shopping accounts. What do you do?",
+    "options": [
+      "Change it on every account that uses it, starting with email",
+      "Change it on one account only",
+      "Add a digit to the end of it everywhere",
+      "Nothing, because they will never try the others"
+    ],
+    "answer": 0,
+    "explanation": "Attackers try stolen passwords on other sites. Email comes first because it can reset almost every other account."
+  },
+  {
+    "id": "def-03",
+    "kind": "concept",
+    "prompt": "Why is a unique password for each account recommended?",
+    "options": [
+      "One stolen password cannot unlock your other accounts",
+      "It makes signing in faster",
+      "Browsers require it",
+      "It stops all phishing"
+    ],
+    "answer": 0,
+    "explanation": "Unique passwords limit the damage of any single theft. A password manager makes them easy to live with."
+  },
+  {
+    "id": "def-04",
+    "kind": "scenario",
+    "prompt": "Your phone keeps showing sign-in approval prompts that you did not start. What should you do?",
+    "options": [
+      "Deny them all, change your password and report it",
+      "Approve one so the prompts stop",
+      "Ignore them",
+      "Turn off your phone and do nothing else"
+    ],
+    "answer": 0,
+    "explanation": "Someone has your password and is hoping you will approve out of annoyance. Deny every prompt and secure the account."
+  },
+  {
+    "id": "def-05",
+    "kind": "concept",
+    "prompt": "A website offers to turn on two-step verification. What is the best response?",
+    "options": [
+      "Turn it on, preferably with an authenticator app or security key",
+      "Leave it off because it takes longer",
+      "Turn it on and email the codes to IT",
+      "Only turn it on when travelling"
+    ],
+    "answer": 0,
+    "explanation": "A second step blocks most account takeovers. Codes are personal and must never be shared with anyone."
+  },
+  {
+    "id": "def-06",
+    "kind": "scenario",
+    "prompt": "You clicked a link in a suspicious email at work, but nothing seemed to happen. What now?",
+    "options": [
+      "Report it to your IT or security team right away",
+      "Say nothing, because nothing happened",
+      "Wait until Monday",
+      "Delete the email and forget it"
+    ],
+    "answer": 0,
+    "explanation": "Harm is often invisible at first. A quick report lets the security team check your device and warn colleagues."
+  },
+  {
+    "id": "def-07",
+    "kind": "concept",
+    "prompt": "Why is reporting a phishing email useful even if you did not click?",
+    "options": [
+      "It lets the security team protect colleagues who received the same message",
+      "It gets the sender fined",
+      "It speeds up your computer",
+      "It is only needed if money was lost"
+    ],
+    "answer": 0,
+    "explanation": "Attackers send the same message to many people. One report can stop the others from being caught."
+  },
+  {
+    "id": "def-08",
+    "kind": "scenario",
+    "prompt": "You paid an invoice to bank details from a fake email and realised the next day. Who do you contact first?",
+    "options": [
+      "Your bank, immediately, to try to stop or recall the payment, then your security team",
+      "The sender of the email",
+      "A friend",
+      "Nobody, because it is too late"
+    ],
+    "answer": 0,
+    "explanation": "Banks can sometimes stop or recall a payment, but only if they hear quickly. Contacting the sender only warns the fraudster."
+  }
+]

@@ -1,0 +1,225 @@
+{
+  "id": "defence-and-response",
+  "title": "Defending yourself and responding",
+  "screens": [
+    {
+      "id": "habits",
+      "heading": "Habits that protect you",
+      "teacher": {
+        "mood": "happy",
+        "say": "You have learned how attacks work. Now let us build the habits that stop them."
+      },
+      "illustration": null,
+      "body": [
+        "Good security is mostly small habits repeated until they become automatic."
+      ],
+      "points": [
+        {
+          "label": "Verify independently",
+          "text": "Check unusual requests through a phone number, address or website you already know, never through details in the message."
+        },
+        {
+          "label": "Use a password manager",
+          "text": "It creates a unique password for every account, and it refuses to fill logins on lookalike addresses."
+        },
+        {
+          "label": "Never reuse passwords",
+          "text": "If one site is breached or one password is phished, a unique password stops the damage from spreading."
+        },
+        {
+          "label": "Keep software updated",
+          "text": "Updates close the holes that malicious files and pages try to exploit."
+        },
+        {
+          "label": "Reach sites yourself",
+          "text": "Use bookmarks or type addresses for banks, email and work systems."
+        }
+      ],
+      "key_takeaway": "Unique passwords, independent checks and updates remove most of the risk."
+    },
+    {
+      "id": "mfa",
+      "heading": "Multi-factor authentication",
+      "teacher": {
+        "mood": "explaining",
+        "say": "A second step at sign-in turns a stolen password into a much smaller problem."
+      },
+      "illustration": null,
+      "body": [
+        "Multi-factor authentication asks for something besides your password, so a stolen password alone is not enough to get in."
+      ],
+      "points": [
+        {
+          "label": "Know plus have",
+          "text": "Your password is something you know. The second factor is something you have, such as an app on your phone or a physical key."
+        },
+        {
+          "label": "Not all second steps are equal",
+          "text": "Codes sent by SMS are better than nothing. Authenticator apps are stronger. Security keys and passkeys are the strongest, because they only work on the genuine website."
+        },
+        {
+          "label": "Never share a code",
+          "text": "A one-time code is for you alone. Genuine support staff never need it."
+        },
+        {
+          "label": "Beware approval fatigue",
+          "text": "If you receive sign-in prompts you did not start, deny them all and change your password. Attackers send repeated prompts hoping you will approve one."
+        }
+      ],
+      "key_takeaway": "Turn on multi-factor authentication, and never give a code to anyone."
+    },
+    {
+      "id": "incident-simulator",
+      "heading": "I clicked. Now what?",
+      "teacher": {
+        "mood": "worried",
+        "say": "Everyone slips eventually. Let us practise the response, so it is automatic when it matters."
+      },
+      "illustration": "incident-simulator",
+      "body": [
+        "Everyone clicks the wrong thing at some point. What matters is how quickly and honestly you respond. Work through the simulator and choose the best action at each step."
+      ],
+      "simulator": {
+        "scenario": "You clicked a link in an email and typed your work password into a sign-in page. The page then simply reloaded, and now you suspect it was fake.",
+        "steps": [
+          {
+            "prompt": "What do you do first?",
+            "options": [
+              {
+                "text": "Close the tab and hope nothing happens",
+                "good": false,
+                "feedback": "Hoping is not a plan. The attacker may already be using the password, so every minute counts."
+              },
+              {
+                "text": "Open the real site yourself, from a bookmark, and change the password at once",
+                "good": true,
+                "feedback": "Correct. Changing the password straight away, on the real site, takes the stolen one out of play."
+              },
+              {
+                "text": "Wait until Monday to mention it",
+                "good": false,
+                "feedback": "Waiting gives the attacker time. Act immediately, even outside working hours."
+              }
+            ]
+          },
+          {
+            "prompt": "You used the same password on a few other accounts. What now?",
+            "options": [
+              {
+                "text": "Change it on every account that used it, starting with email and banking",
+                "good": true,
+                "feedback": "Correct. Attackers try stolen passwords on other sites straight away, and email comes first because it can reset everything else."
+              },
+              {
+                "text": "Only the one account is at risk, so leave the rest",
+                "good": false,
+                "feedback": "Reused passwords are tried everywhere. Every account that shares the password is at risk."
+              },
+              {
+                "text": "Add a 1 to the end of the old password on each account",
+                "good": false,
+                "feedback": "Small variations are easy to guess. Use a new, unique password for each account."
+              }
+            ]
+          },
+          {
+            "prompt": "Your account has two-step verification. What should you do?",
+            "options": [
+              {
+                "text": "Turn it off, because it did not stop this",
+                "good": false,
+                "feedback": "It did its job by adding a barrier. Turning it off removes your best protection."
+              },
+              {
+                "text": "Approve any pending prompts so the account stays unlocked",
+                "good": false,
+                "feedback": "Never approve prompts you did not start. They may be the attacker trying to sign in."
+              },
+              {
+                "text": "Keep it on, and sign out of all other sessions from the account's security page",
+                "good": true,
+                "feedback": "Correct. Signing out other sessions removes anyone who is already logged in with the stolen password."
+              }
+            ]
+          },
+          {
+            "prompt": "Who should know about this?",
+            "options": [
+              {
+                "text": "Nobody, because nothing was visibly stolen",
+                "good": false,
+                "feedback": "Damage is often invisible at first. Staying silent helps only the attacker."
+              },
+              {
+                "text": "Your IT or security team, immediately, with the original email",
+                "good": true,
+                "feedback": "Correct. Reporting lets the team block the fake site, check your account and warn colleagues who got the same message."
+              },
+              {
+                "text": "Nobody. Delete the email so there is no evidence",
+                "good": false,
+                "feedback": "The email is evidence that helps investigators. Report it instead of deleting it."
+              }
+            ]
+          },
+          {
+            "prompt": "What should you watch for over the next few days?",
+            "options": [
+              {
+                "text": "Nothing, because you are safe once the password is changed",
+                "good": false,
+                "feedback": "Attackers may have set up hidden access. Stay alert for a while."
+              },
+              {
+                "text": "Only your phone bill",
+                "good": false,
+                "feedback": "Look at your accounts, not just one bill. Signs of misuse show up in several places."
+              },
+              {
+                "text": "Unexpected sign-in alerts, password-reset emails, odd mailbox rules or forwarding, and unfamiliar transactions",
+                "good": true,
+                "feedback": "Correct. These are the usual signs that someone still has access or is trying to get it."
+              }
+            ]
+          }
+        ]
+      },
+      "key_takeaway": "After a mistake, speed and honesty matter more than perfection."
+    },
+    {
+      "id": "reporting",
+      "heading": "Reporting and what happens next",
+      "teacher": {
+        "mood": "celebrating",
+        "say": "Reporting is not confessing. It is the single most helpful thing you can do."
+      },
+      "illustration": null,
+      "body": [
+        "Report quickly, even if you are unsure. Security teams would much rather receive ten false alarms than miss one real attack."
+      ],
+      "points": [
+        {
+          "label": "What to report",
+          "text": "Suspicious emails, texts, calls and websites, whether or not you clicked."
+        },
+        {
+          "label": "What to include",
+          "text": "Forward the original email using your organisation's report button or address, and note what you clicked or typed, and when."
+        },
+        {
+          "label": "If money moved",
+          "text": "Contact your bank immediately. Fast action gives the best chance of stopping or recalling a payment."
+        },
+        {
+          "label": "If it was a personal account",
+          "text": "Use the provider's account recovery and security pages, and change reused passwords everywhere."
+        }
+      ],
+      "example": {
+        "title": "A good outcome",
+        "text": "A clerk realises she typed her password into a fake page. She changes it within minutes and reports it. The security team blocks the fake site and warns everyone. The attack stops with one report."
+      },
+      "key_takeaway": "Report fast and without shame. A quick report turns one mistake into protection for everyone."
+    }
+  ]
+}

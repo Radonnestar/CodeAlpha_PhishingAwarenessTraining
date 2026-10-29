@@ -1,0 +1,106 @@
+[
+  {
+    "id": "case-01",
+    "kind": "concept",
+    "prompt": "In the fake supplier invoice case, what made the requests believable?",
+    "options": [
+      "The fraudster impersonated a real supplier that the companies already worked with",
+      "The emails were sent in the middle of the night",
+      "The invoices were extremely small",
+      "The emails contained viruses"
+    ],
+    "answer": 0,
+    "explanation": "The invoices looked routine because the supplier was real and the relationship was genuine. Borrowed trust was the whole trick."
+  },
+  {
+    "id": "case-02",
+    "kind": "concept",
+    "prompt": "What would most likely have stopped payment on the fake invoices?",
+    "options": [
+      "Confirming bank details and unusual payments with the real supplier through a separate known channel",
+      "Using longer passwords",
+      "Installing a newer browser",
+      "Blocking every attachment"
+    ],
+    "answer": 0,
+    "explanation": "Nothing was hacked. A phone call to a number already on file would have exposed the fraud."
+  },
+  {
+    "id": "case-03",
+    "kind": "scenario",
+    "prompt": "You receive a 'security alert' saying someone used your password, with a Change password button. What is the best action?",
+    "options": [
+      "Click the button",
+      "Go to the service's website directly and check your security settings there",
+      "Reply and ask if it is real",
+      "Forward it to friends as a warning"
+    ],
+    "answer": 1,
+    "explanation": "This is the 2016 trick. If the alert is real, the same information is in your account settings when you go there yourself."
+  },
+  {
+    "id": "case-04",
+    "kind": "concept",
+    "prompt": "The 2016 alert used a shortened link. Why does that help an attacker?",
+    "options": [
+      "It hides the destination, so the fake page is not obvious",
+      "It makes the page load faster",
+      "It encrypts the password",
+      "It switches off email filters"
+    ],
+    "answer": 0,
+    "explanation": "A shortened link hides where it goes, so the victim cannot spot a suspicious address before clicking."
+  },
+  {
+    "id": "case-05",
+    "kind": "scenario",
+    "prompt": "Someone phones saying they are from internal IT and asks you to sign in to a page they are texting you. What do you do?",
+    "options": [
+      "Follow along, because they sound professional",
+      "End the call and contact IT through a number from the company directory",
+      "Ask for their name and then continue",
+      "Sign in, but do not read out your password"
+    ],
+    "answer": 1,
+    "explanation": "This is the 2020 social media case. Never trust a caller who contacted you. Call back on a number you already know."
+  },
+  {
+    "id": "case-06",
+    "kind": "concept",
+    "prompt": "What do all three cases have in common?",
+    "options": [
+      "The attackers exploited trust in a familiar person, brand or role, and relied on someone acting without checking",
+      "They all required advanced hacking of firewalls",
+      "They all started with a lost laptop",
+      "They only affected small companies"
+    ],
+    "answer": 0,
+    "explanation": "Different channels, same method: a trusted identity and a person who acts before checking."
+  },
+  {
+    "id": "case-07",
+    "kind": "concept",
+    "prompt": "Which type of sign-in is hardest to phish, because it only works on the real website?",
+    "options": [
+      "Security keys or passkeys",
+      "Four-digit PINs",
+      "Security questions",
+      "Passwords with symbols"
+    ],
+    "answer": 0,
+    "explanation": "Security keys and passkeys are tied to the genuine website, so they refuse to work on a fake page, even if a person is fooled."
+  },
+  {
+    "id": "case-08",
+    "kind": "scenario",
+    "prompt": "A finance clerk gets an email from a known supplier: 'New bank account details, effective immediately. The next invoice is due Friday.' What should the clerk do?",
+    "options": [
+      "Update the details and pay",
+      "Phone the supplier on a number already on file before changing anything",
+      "Reply asking if the new details are correct",
+      "Update the details but pay only half"
+    ],
+    "answer": 1,
+    "explanation": "A changed bank account is the classic invoice fraud. Replying reaches the fraudster, so verify by phone using a known number."
+  }
+]

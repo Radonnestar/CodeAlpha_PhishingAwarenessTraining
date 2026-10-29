@@ -1,0 +1,106 @@
+[
+  {
+    "id": "web-01",
+    "kind": "concept",
+    "prompt": "In https://login.examplebank.com.account-check.net/sign-in, which part shows who owns the site?",
+    "options": [
+      "login.examplebank.com",
+      "account-check.net",
+      "/sign-in",
+      "https://"
+    ],
+    "answer": 1,
+    "explanation": "Read from the right and stop at the first single slash. The site belongs to account-check.net, and everything in front of it is decoration."
+  },
+  {
+    "id": "web-02",
+    "kind": "scenario",
+    "prompt": "A colleague says a page must be genuine because it shows a padlock. What is the best reply?",
+    "options": [
+      "That is correct, the padlock proves it",
+      "The padlock only means the connection is encrypted, and fake sites can have one too",
+      "That is correct if the padlock is green",
+      "That is correct if the page looks professional"
+    ],
+    "answer": 1,
+    "explanation": "The padlock protects data in transit. It does not tell you who runs the site."
+  },
+  {
+    "id": "web-03",
+    "kind": "scenario",
+    "prompt": "Your password manager offers no login on a page that looks exactly like your email provider's. What is the most likely explanation?",
+    "options": [
+      "The password manager is broken",
+      "The address is not the one you saved, so the page may be fake",
+      "The page is loading slowly",
+      "The password manager only works at night"
+    ],
+    "answer": 1,
+    "explanation": "A password manager only fills logins on the exact saved address. Its silence is a useful warning."
+  },
+  {
+    "id": "web-04",
+    "kind": "scenario",
+    "prompt": "An email says: 'Your session has expired. Sign in again.' It includes a link. What is the best action?",
+    "options": [
+      "Click it and sign in",
+      "Open the site yourself, using a bookmark or by typing the address",
+      "Reply and ask if it is real",
+      "Click it but use a different browser"
+    ],
+    "answer": 1,
+    "explanation": "A different browser does not help. Reach the site yourself, so you never depend on a link an attacker chose."
+  },
+  {
+    "id": "web-05",
+    "kind": "concept",
+    "prompt": "Which address is most likely a lookalike of examplebank.com?",
+    "options": [
+      "examp1ebank.com",
+      "www.examplebank.com",
+      "examplebank.com",
+      "help.examplebank.com"
+    ],
+    "answer": 0,
+    "explanation": "The number 1 replaces the letter l. The www and help versions still end in examplebank.com, so they belong to the same owner."
+  },
+  {
+    "id": "web-06",
+    "kind": "scenario",
+    "prompt": "You click a link in a message and your browser shows a full-page 'Deceptive site ahead' warning. What should you do?",
+    "options": [
+      "Click through, because browsers are overcautious",
+      "Close the page and report the message",
+      "Turn off the warning in settings",
+      "Refresh until the warning goes away"
+    ],
+    "answer": 1,
+    "explanation": "These warnings are triggered by known malicious pages. Close the page, and report the message that led you there."
+  },
+  {
+    "id": "web-07",
+    "kind": "scenario",
+    "prompt": "A QR code sticker has been placed over the original on a parking meter, and it says 'Scan to pay'. What is the safest option?",
+    "options": [
+      "Scan it quickly and pay",
+      "Use the operator's official app or website, and report the sticker",
+      "Scan it, but do not type card details",
+      "Scan it with a second phone"
+    ],
+    "answer": 1,
+    "explanation": "A QR code hides its address, and a pasted sticker is a warning sign. Use an official app or website you trust."
+  },
+  {
+    "id": "web-08",
+    "kind": "concept",
+    "prompt": "Why are shortened links risky when they arrive unexpectedly?",
+    "options": [
+      "They hide the real destination",
+      "They always contain malware",
+      "They are slower to load",
+      "They cannot be opened on phones"
+    ],
+    "answer": 0,
+    "explanation": "You cannot judge a destination you cannot see. Treat an unexpected short link as an unknown address."
+  }
+]

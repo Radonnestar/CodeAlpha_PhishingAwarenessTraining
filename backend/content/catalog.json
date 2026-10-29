@@ -1,0 +1,32 @@
+[
+  {
+    "id": "what-is-phishing",
+    "title": "What phishing is",
+    "summary": "How phishing works, why it succeeds, and the main types you will meet."
+  },
+  {
+    "id": "social-engineering",
+    "title": "The psychology of deception",
+    "summary": "The mental shortcuts attackers exploit: authority, urgency, fear, reward and trust."
+  },
+  {
+    "id": "email-red-flags",
+    "title": "Red flags in emails",
+    "summary": "Read a message like an investigator: sender, links, attachments and tone."
+  },
+  {
+    "id": "fake-websites",
+    "title": "Fake websites and malicious links",
+    "summary": "Take apart a web address and spot a counterfeit login page."
+  },
+  {
+    "id": "case-studies",
+    "title": "Real-world case studies",
+    "summary": "How well-known organisations were tricked and what could have stopped it."
+  },
+  {
+    "id": "defence-and-response",
+    "title": "Defending yourself and responding",
+    "summary": "Habits that protect you, and exactly what to do if you clicked."
+  }
+]

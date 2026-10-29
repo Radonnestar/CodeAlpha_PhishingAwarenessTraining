@@ -1,0 +1,128 @@
+{
+  "id": "social-engineering",
+  "title": "The psychology of deception",
+  "screens": [
+    {
+      "id": "why-people-fall",
+      "heading": "Why smart people get fooled",
+      "teacher": {
+        "mood": "explaining",
+        "say": "First, a promise: falling for a scam says nothing about your intelligence. Let me show you why."
+      },
+      "illustration": null,
+      "body": [
+        "Social engineering means manipulating a person into breaking a normal security habit, such as sharing a password, opening a file or making a payment. It is the engine behind almost every phishing attack.",
+        "Your brain has two modes. One is fast and automatic, and it handles routine jobs like clearing your inbox. The other is slow and careful, and it checks facts. Attackers write messages that keep you in the fast mode.",
+        "They do not need you to be foolish. They only need you to be busy, worried or eager to help at the wrong moment."
+      ],
+      "key_takeaway": "Being fooled is not a sign of low intelligence. Attackers design messages to switch off careful thinking."
+    },
+    {
+      "id": "pressure-levers",
+      "heading": "The pressure levers",
+      "teacher": {
+        "mood": "thinking",
+        "say": "Try the meter. Switch the levers on one at a time and notice how the message starts to feel."
+      },
+      "illustration": "pressure-meter",
+      "body": [
+        "Attackers combine emotional levers to raise the pressure. Each one is simple, but together they make it very hard to stop and think."
+      ],
+      "meter": {
+        "base": "Hi Sam, I need the supplier payment of $18,400 sent today.",
+        "levers": [
+          {
+            "label": "Authority",
+            "line": "This is a direct instruction from the CEO.",
+            "note": "Authority: people obey bosses, officials and experts without questioning. Anyone can claim a title in a message."
+          },
+          {
+            "label": "Urgency",
+            "line": "It must be done within the hour.",
+            "note": "Urgency: a short deadline removes the time you would use to verify the request."
+          },
+          {
+            "label": "Fear",
+            "line": "If it is late, the contract will be cancelled and it will be on you.",
+            "note": "Fear: threats of blame, fines or lost access make people act to escape the pain."
+          },
+          {
+            "label": "Secrecy",
+            "line": "Do not discuss this with anyone.",
+            "note": "Secrecy: it stops colleagues from raising the alarm and removes the easiest check, which is asking someone else."
+          }
+        ],
+        "levels": [
+          "Calm and thinking",
+          "A little rushed",
+          "Under pressure",
+          "Hard to think clearly",
+          "Panicking and complying"
+        ]
+      },
+      "key_takeaway": "Every lever you add makes careful thinking harder. When the pressure rises, slow down."
+    },
+    {
+      "id": "more-levers",
+      "heading": "More ways to get you to act",
+      "teacher": {
+        "mood": "worried",
+        "say": "Pressure is not the only tool. Some levers feel pleasant, which makes them even harder to notice."
+      },
+      "illustration": null,
+      "body": [
+        "Attackers also use positive feelings. A message that makes you curious, excited or useful rarely feels like an attack."
+      ],
+      "points": [
+        {
+          "label": "Reward",
+          "text": "Prizes, refunds and exclusive offers make people click before they think."
+        },
+        {
+          "label": "Curiosity",
+          "text": "A file called Salary Review or a message saying someone posted a photo of you tempts almost everyone to open it."
+        },
+        {
+          "label": "Helpfulness",
+          "text": "Most people want to be useful. A polite request for a quick favour feels harmless, so it rarely triggers suspicion."
+        },
+        {
+          "label": "Familiarity",
+          "text": "Messages that mention a real project, a real supplier or a known name feel safe. Attackers collect these details from public profiles."
+        }
+      ],
+      "example": {
+        "title": "A realistic example",
+        "text": "A new starter gets a friendly chat message from an account using their manager's name and photo: 'Hi! Are you free for a quick favour?' New staff are targeted because they do not yet know who normally asks for what, and they want to make a good impression."
+      },
+      "key_takeaway": "Pleasant feelings are levers too. Curiosity, excitement and helpfulness deserve the same caution as fear."
+    },
+    {
+      "id": "pause-check-report",
+      "heading": "Your defence: pause, check, report",
+      "teacher": {
+        "mood": "happy",
+        "say": "The good news is that one simple routine beats every lever we just saw."
+      },
+      "illustration": null,
+      "body": [
+        "You cannot stop attackers from sending messages. You can control what you do in the moment between reading a message and acting on it."
+      ],
+      "points": [
+        {
+          "label": "Pause",
+          "text": "Notice the feeling. Rushed, scared, thrilled or flattered are all signals to slow down."
+        },
+        {
+          "label": "Check",
+          "text": "Verify using a channel you already know: a saved phone number, the company directory, or the official website typed in yourself. Never use contact details from the message."
+        },
+        {
+          "label": "Report",
+          "text": "Tell your security team even if you are not sure. A quick report protects everyone who received the same message."
+        }
+      ],
+      "key_takeaway": "The stronger the pressure to hurry, the stronger the reason to verify."
+    }
+  ]
+}

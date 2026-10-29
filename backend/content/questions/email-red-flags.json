@@ -1,0 +1,106 @@
+[
+  {
+    "id": "red-01",
+    "kind": "concept",
+    "prompt": "The display name says 'Examplebank Support'. What should you check to learn who really sent the email?",
+    "options": [
+      "The actual sender address",
+      "The font",
+      "The time it was sent",
+      "The size of the email"
+    ],
+    "answer": 0,
+    "explanation": "Anyone can type any display name. The address inside the angle brackets shows who really sent it."
+  },
+  {
+    "id": "red-02",
+    "kind": "scenario",
+    "prompt": "An email comes from support@examplebank-secure.co. What does that tell you?",
+    "options": [
+      "It is from Examplebank, because it contains the name",
+      "The domain is different from the bank's own, so it is suspicious",
+      "Domains ending in .co are always safe",
+      "The word secure means it is safe"
+    ],
+    "answer": 1,
+    "explanation": "The name is inside a different domain. Attackers add words like secure to look official."
+  },
+  {
+    "id": "red-03",
+    "kind": "scenario",
+    "prompt": "The link text reads www.examplebank.com, but hovering over it shows a completely different address. What should you do?",
+    "options": [
+      "Trust the text, because it shows the bank",
+      "Trust the hover address, so do not click",
+      "Click, because it is probably a browser bug",
+      "Click, because it is just a tracking link"
+    ],
+    "answer": 1,
+    "explanation": "Link text can say anything. The real destination is what matters, and a mismatch is a strong warning sign."
+  },
+  {
+    "id": "red-04",
+    "kind": "concept",
+    "prompt": "Which attachment deserves the most suspicion?",
+    "options": [
+      "An unexpected .zip archive claiming to be an invoice",
+      "A meeting invitation from a colleague you spoke with this morning",
+      "A PDF a colleague sends right after discussing it on a call",
+      "A photo from a family member's usual address after you asked for it"
+    ],
+    "answer": 0,
+    "explanation": "Unexpected archives are a common way to deliver malware. The others were expected, which makes them much less suspicious."
+  },
+  {
+    "id": "red-05",
+    "kind": "scenario",
+    "prompt": "An email from 'IT Helpdesk' shows an internal From address, but its Reply-To is it.helpdesk.team@outlook-mail.co. What does this mean?",
+    "options": [
+      "Replies would go to an outside address, which is a warning sign",
+      "Reply-To is only decoration",
+      "IT uses it to protect privacy",
+      "Nothing, because the From address looks internal"
+    ],
+    "answer": 0,
+    "explanation": "The From line can be made to look internal. A different Reply-To sends your answer, possibly a password, to an outsider."
+  },
+  {
+    "id": "red-06",
+    "kind": "scenario",
+    "prompt": "You ordered nothing. An email says: 'Dear customer, your parcel could not be delivered. Pay $1.99 within 12 hours.' Which red flags are present?",
+    "options": [
+      "Generic greeting, an unexpected delivery, and a deadline",
+      "Only a spelling mistake",
+      "None, because small fees are always genuine",
+      "Only that it is in your inbox"
+    ],
+    "answer": 0,
+    "explanation": "A vague greeting, a delivery you did not expect, and a deadline for a tiny fee are classic signs. The real goal is your card details."
+  },
+  {
+    "id": "red-07",
+    "kind": "concept",
+    "prompt": "An email has perfect spelling and a professional design. What does that tell you?",
+    "options": [
+      "That it is safe",
+      "Nothing, so you should still check the sender, links and request",
+      "That it was written by a native speaker, so it is real",
+      "That it came from a large company"
+    ],
+    "answer": 1,
+    "explanation": "Polish proves nothing. Modern tools can produce flawless text, so judge the request, the sender and the link."
+  },
+  {
+    "id": "red-08",
+    "kind": "scenario",
+    "prompt": "A colleague's real address emails you: 'Please review the attached invoice, urgent.' It is out of character and you were not expecting it. What is the best action?",
+    "options": [
+      "Open it, because it is from a colleague",
+      "Message or call the colleague on a channel you know to confirm",
+      "Forward it to the whole team to ask",
+      "Open it in a private browser window"
+    ],
+    "answer": 1,
+    "explanation": "A colleague's account may have been hacked. An out-of-character request deserves a quick check through another channel."
+  }
+]

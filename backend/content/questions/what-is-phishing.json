@@ -1,0 +1,93 @@
+[
+  {
+    "id": "wip-01",
+    "kind": "concept",
+    "prompt": "Which statement best describes phishing?",
+    "options": [
+      "An attacker pretends to be a trusted source to trick people into giving up information or access",
+      "Malware that spreads between computers without any user action",
+      "Software that guesses passwords at high speed",
+      "Flooding a website with traffic until it stops responding"
+    ],
+    "answer": 0,
+    "explanation": "Phishing relies on deception. The attacker impersonates someone trusted and persuades a person to act."
+  },
+  {
+    "id": "wip-02",
+    "kind": "scenario",
+    "prompt": "A text message says your parcel is on hold and asks you to pay a small fee through a link. What is this attack called?",
+    "options": [
+      "Vishing",
+      "Smishing",
+      "Whaling",
+      "Pharming"
+    ],
+    "answer": 1,
+    "explanation": "Smishing is phishing delivered by SMS or chat apps. Vishing uses phone calls, and whaling targets senior leaders."
+  },
+  {
+    "id": "wip-03",
+    "kind": "concept",
+    "prompt": "What makes spear phishing different from ordinary email phishing?",
+    "options": [
+      "It is aimed at a specific person and uses personal details",
+      "It is only ever sent by phone",
+      "It always contains an attachment",
+      "It only targets company executives"
+    ],
+    "answer": 0,
+    "explanation": "Spear phishing is tailored to one target. Targeting executives specifically is called whaling."
+  },
+  {
+    "id": "wip-04",
+    "kind": "scenario",
+    "prompt": "A caller says they are from your bank's fraud team and asks you to read out the code that was just sent to your phone. What should you do?",
+    "options": [
+      "Read the code, because they already know your name",
+      "Hang up and call the number printed on your bank card",
+      "Ask them to prove who they are and carry on with the call",
+      "Read out only the first three digits"
+    ],
+    "answer": 1,
+    "explanation": "Never trust a caller who contacted you. End the call and phone the bank using a number you already know. One-time codes must never be shared."
+  },
+  {
+    "id": "wip-05",
+    "kind": "scenario",
+    "prompt": "A finance manager gets an email addressed to them by name. It mentions a real supplier and asks them to update the supplier's bank details. Which type of attack is this most likely to be?",
+    "options": [
+      "Mass email phishing",
+      "Spear phishing",
+      "Smishing",
+      "Quishing"
+    ],
+    "answer": 1,
+    "explanation": "The use of a real name, role and supplier shows the attacker researched the target. That is the mark of spear phishing."
+  },
+  {
+    "id": "wip-06",
+    "kind": "scenario",
+    "prompt": "A sticker on a parking meter shows a QR code to pay for parking. The page it opens asks for your full card details. What is this?",
+    "options": [
+      "Quishing",
+      "Whaling",
+      "Vishing",
+      "Spear phishing"
+    ],
+    "answer": 0,
+    "explanation": "Quishing hides a malicious address inside a QR code. Use the operator's official app or website instead of scanning unknown codes."
+  },
+  {
+    "id": "wip-07",
+    "kind": "concept",
+    "prompt": "Why do attackers favour phishing over attacking networks directly?",
+    "options": [
+      "It targets people, so it can bypass firewalls and other technical controls",
+      "It needs expensive equipment that others cannot detect",
+      "It only works against old software",
+      "It cannot be traced by anyone"
+    ],
+    "answer": 0,
+    "explanation": "Phishing is cheap, scales to thousands of targets, and succeeds when a person makes a choice that no technical control can block."
+  }
+]
